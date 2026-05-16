@@ -101,11 +101,11 @@ Sauti ya Mwananchi is built as a hierarchical multi-agent system using the [Goog
 
 | Agent | Swahili Name | Role | Key Tools | Model |
 |-------|-------------|------|-----------|-------|
-| **Msaidizi** | *Helper* | Root orchestrator. Receives all messages, detects language (English/Swahili/Sheng), classifies intent, scrubs PII, and delegates to the correct specialist agent. | Intent classification, PII scrubbing, `transfer_to_agent` | Gemini 2.0 Flash |
-| **Mwalimu** | *Teacher* | Civic education specialist. Answers questions about constitutional rights, the electoral process, government structure, and voter responsibilities using **only** RAG-retrieved, cited sources. | `search_civic_knowledge` (Vertex AI Search), `get_constitution_article` | Gemini 2.0 Flash |
-| **Kiongozi** | *Guide/Leader* | Polling station locator. Helps citizens find their designated voting location based on county, constituency, or ward — without requiring personal IDs. | `find_polling_station`, `list_constituencies` | Gemini 2.0 Flash |
-| **Ukweli** | *Truth* | Misinformation fact-checker. Analyzes text claims and **images** (via Gemini Vision) of political propaganda. Returns VERIFIED, FALSE, or UNVERIFIED verdicts with source citations. | `analyze_image_content` (Gemini Vision), `search_verified_claims`, `search_civic_knowledge` | Gemini 2.0 Flash |
-| **Mwenza** | *Companion* | Election Day companion. Provides step-by-step voting guidance optimized for USSD character limits and SMS constraints. Covers queue procedures, ballot marking, and voter rights at the station. | `get_election_day_step`, `get_voter_rights_at_station` | Gemini 2.0 Flash |
+| **Helper** | *Msaidizi* | Root orchestrator. Receives all messages, detects language (English/Swahili/Sheng), classifies intent, scrubs PII, and delegates to the correct specialist agent. | Intent classification, PII scrubbing, `transfer_to_agent` | Gemini 2.0 Flash |
+| **Teacher** | *Mwalimu* | Civic education specialist. Answers questions about constitutional rights, the electoral process, government structure, and voter responsibilities using **only** RAG-retrieved, cited sources. | `search_civic_knowledge` (Vertex AI Search), `get_constitution_article` | Gemini 2.0 Flash |
+| **Guide/Leader** | *Kiongozi* | Polling station locator. Helps citizens find their designated voting location based on county, constituency, or ward — without requiring personal IDs. | `find_polling_station`, `list_constituencies` | Gemini 2.0 Flash |
+| **Truth** | *Ukweli* | Misinformation fact-checker. Analyzes text claims and **images** (via Gemini Vision) of political propaganda. Returns VERIFIED, FALSE, or UNVERIFIED verdicts with source citations. | `analyze_image_content` (Gemini Vision), `search_verified_claims`, `search_civic_knowledge` | Gemini 2.0 Flash |
+| **Companion** | *Mwenza* | Election Day companion. Provides step-by-step voting guidance optimized for USSD character limits and SMS constraints. Covers queue procedures, ballot marking, and voter rights at the station. | `get_election_day_step`, `get_voter_rights_at_station` | Gemini 2.0 Flash |
 
 ### Agent Communication Protocol
 
