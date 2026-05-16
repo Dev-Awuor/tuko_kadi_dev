@@ -1,0 +1,26 @@
+# ============================================================
+# Sauti ya Mwananchi — Python Dependencies
+# ============================================================
+
+# --- Core Framework ---
+fastapi==0.115.*
+uvicorn[standard]==0.34.*
+python-dotenv==1.1.*
+pydantic==2.*
+
+# --- Google AI / Agent Development Kit ---
+google-adk==1.*
+google-cloud-aiplatform==1.*
+google-cloud-discoveryengine==0.*
+google-genai==1.*
+
+# --- Africa's Talking ---
+africastalking==2.*
+
+# --- HTTP Client ---
+httpx==0.28.*
+
+# --- Testing ---
+pytest==8.*
+pytest-asyncio==0.24.*
+httpx==0.28.*
