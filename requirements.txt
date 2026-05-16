@@ -7,6 +7,7 @@ fastapi==0.115.*
 uvicorn[standard]==0.34.*
 python-dotenv==1.1.*
 pydantic==2.*
+pydantic-settings==2.*
 
 # --- Google AI / Agent Development Kit ---
 google-adk==1.*

@@ -1,0 +1,14 @@
+[
+    {
+        "claim": "You can vote at any polling station in Kenya",
+        "verdict": "FALSE",
+        "correction": "You must vote at the polling station where you are registered as a voter.",
+        "source": "Elections Act 2011, Section 6"
+    },
+    {
+        "claim": "Voter registration is open until election day",
+        "verdict": "FALSE",
+        "correction": "Voter registration typically closes 60 days before the general election.",
+        "source": "IEBC Guidelines"
+    }
+]

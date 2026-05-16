@@ -1,0 +1,23 @@
+[
+    {
+        "county": "Nairobi",
+        "constituency": "Westlands",
+        "ward": "Karura",
+        "station_name": "Karura Forest Primary School",
+        "code": "001-042"
+    },
+    {
+        "county": "Nairobi",
+        "constituency": "Westlands",
+        "ward": "Parklands",
+        "station_name": "Visa Oshwal Primary School",
+        "code": "001-043"
+    },
+    {
+        "county": "Mombasa",
+        "constituency": "Nyali",
+        "ward": "Frere Town",
+        "station_name": "Nyali Primary School",
+        "code": "002-010"
+    }
+]

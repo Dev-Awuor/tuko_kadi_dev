@@ -1,0 +1,14 @@
+[
+    {
+        "step": 1,
+        "title": "Identification",
+        "description": "Present your original National ID card or valid Passport to the polling official.",
+        "ussd": "Step 1: Present original ID or Passport to official."
+    },
+    {
+        "step": 2,
+        "title": "Voter Verification",
+        "description": "Your name will be checked in the printed Register of Voters and your fingerprints scanned by the KIEMS kit.",
+        "ussd": "Step 2: Fingerprint scan via KIEMS kit."
+    }
+]
